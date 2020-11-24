@@ -58,6 +58,7 @@
 .mySlides img:hover {
   animation-name: fade-slideshow;
   animation-duration: 1.5s;
+  filter: brightness(50%);
 }
 
 .mySlides img:not(:hover) {

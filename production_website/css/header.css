@@ -26,6 +26,8 @@
     vertical-align: middle;
 }
 
+/*BUG resize image to make logo a circle rather than a square*/
+
 .header_logo {
     height: 70px;
     border-radius: 50%;
