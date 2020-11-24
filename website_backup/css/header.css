@@ -1,0 +1,106 @@
+.header{
+    width: 100%;
+    height: 80px;
+    display: block;
+    color: rgb(75, 0, 160);
+    background-color: turquoise;
+    box-shadow: 0 0 2px 1px rgb(0, 0, 0);
+}
+
+.inner_header{
+    width: 80%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.logo_container{
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.logo_pic_container{
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.header_logo {
+    height: 70px;
+    border-radius: 50%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.header_logo:hover{
+    box-shadow: 0 0 2px 1px rgb(0, 0, 0);
+}
+
+.logo_container a:active{
+    color: inherit;
+}
+
+.logo_container h1{
+    height: 100%;
+    display:  table-cell;
+    vertical-align: middle;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+.logo_container h1 span{
+    font-weight: 800;
+}
+
+#collapse_button{
+    display: table;
+    float: right;
+    vertical-align: middle;
+    color: rgb(0, 0, 0);
+    background-color: rgb(43, 170, 187);
+    height: 80px;
+    width: 160px;
+}
+
+.navigation{
+    position: absolute;
+    float: right;
+    height: 240px;
+    text-transform: uppercase;
+    list-style: none;
+}
+
+.navigation a{
+    display: table;
+    height: 60px;
+    padding: 0px 20px;
+    width: 120px;
+    background-color: springgreen;
+}
+
+.navigation a:hover{
+    background-color: rgb(84, 169, 180);
+}
+
+.navigation a li{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    height: 100%;
+    font-family: "Roboto";
+    font-size: 18px;
+}
+/*TODO finish adding position relative to the button for nav and add equivalent widths for everything*/
+.nav_bar_container{
+    float: right;
+    margin-top: 85px;
+    display: none;
+}
+
+
+#current_page {
+    background-color: rgb(115, 200, 211);
+}

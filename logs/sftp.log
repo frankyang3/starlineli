@@ -1,0 +1,64 @@
+Oct 28 14:21:19 10.71.61.0 tmp100996274-7938 Connection from 10.71.61.0 port 46824 on 74.208.58.219 port 22
+Oct 28 14:21:19 10.71.61.0 tmp100996274-7938 Accepted password for tmp100996274-7938 from 10.71.61.0 port 46824 ssh2
+Oct 28 14:21:20 10.71.61.0 tmp100996274-7938 Starting session: subsystem 'sftp' for tmp100996274-7938 from 10.71.61.0 port 46824 id 0
+Oct 28 14:21:20 10.71.61.0 tmp100996274-7938 session opened for local user tmp100996274-7938 from [10.71.61.0]
+Oct 28 14:21:38 10.71.61.0 tmp100996274-7304 Connection from 10.71.61.0 port 57676 on 74.208.58.219 port 22
+Oct 28 14:21:39 10.71.61.0 tmp100996274-7304 Accepted password for tmp100996274-7304 from 10.71.61.0 port 57676 ssh2
+Oct 28 14:21:40 10.71.61.0 tmp100996274-7938 open "/production_website/index.html" flags READ mode 0666
+Oct 28 14:21:41 10.71.61.0 tmp100996274-7938 close "/production_website/index.html" bytes read 1121 written 0
+Oct 28 14:21:41 10.71.61.0 tmp100996274-7938 [10.71.61.0|get|1|1121|0|0|0|2f70726f64756374696f6e5f776562736974652f696e6465782e68746d6c|]
+Oct 28 15:22:06 10.71.61.0 tmp100996274-7938 Connection closed by 10.71.61.0 port 46824
+Oct 28 15:22:06 10.71.61.0 tmp100996274-7938 session closed for local user tmp100996274-7938 from [10.71.61.0]
+Oct 28 15:22:06 10.71.61.0 tmp100996274-7304 Connection closed by 10.71.61.0 port 57676
+Nov  1 11:42:04 10.71.61.0 u100996274 Connection from 10.71.61.0 port 17006 on 74.208.58.219 port 22
+Nov  1 11:42:04 10.71.61.0 u100996274 Accepted password for u100996274 from 10.71.61.0 port 17006 ssh2
+Nov  1 11:42:04 10.71.61.0 u100996274 Starting session: subsystem 'sftp' for u100996274 from 10.71.61.0 port 17006 id 0
+Nov  1 11:42:04 10.71.61.0 u100996274 session opened for local user u100996274 from [10.71.61.0]
+Nov  1 11:46:06 10.71.60.0 u100996274 Connection from 10.71.60.0 port 64726 on 74.208.58.219 port 22
+Nov  1 11:46:19 10.71.60.0 u100996274 Accepted password for u100996274 from 10.71.60.0 port 64726 ssh2
+Nov  1 11:46:19 10.71.60.0 u100996274 Starting session: subsystem 'sftp' for u100996274 from 10.71.60.0 port 64726 id 0
+Nov  1 11:46:19 10.71.60.0 u100996274 session opened for local user u100996274 from [10.71.60.0]
+Nov  1 11:48:52 10.71.60.0 u100996274 Connection from 10.71.60.0 port 34894 on 74.208.58.219 port 22
+Nov  1 11:48:52 10.71.60.0 u100996274 Accepted password for u100996274 from 10.71.60.0 port 34894 ssh2
+Nov  1 11:48:52 10.71.60.0 u100996274 Starting session: subsystem 'sftp' for u100996274 from 10.71.60.0 port 34894 id 0
+Nov  1 11:48:52 10.71.60.0 u100996274 session opened for local user u100996274 from [10.71.60.0]
+Nov  1 11:48:53 10.71.60.0 u100996274 sent status No such file
+Nov  1 11:48:52 10.71.60.0 u100996274 Connection from 10.71.60.0 port 35058 on 74.208.58.219 port 22
+Nov  1 11:48:53 10.71.60.0 u100996274 Accepted password for u100996274 from 10.71.60.0 port 35058 ssh2
+Nov  1 11:48:53 10.71.60.0 u100996274 open "/jank stuffs/old-index.html" flags READ mode 0666
+Nov  1 11:48:53 10.71.60.0 u100996274 Starting session: subsystem 'sftp' for u100996274 from 10.71.60.0 port 35058 id 0
+Nov  1 11:48:53 10.71.60.0 u100996274 session opened for local user u100996274 from [10.71.60.0]
+Nov  1 11:48:53 10.71.60.0 u100996274 close "/jank stuffs/old-index.html" bytes read 428 written 0
+Nov  1 11:48:53 10.71.60.0 u100996274 [10.71.60.0|get|0|428|0|0|0|2f6a616e6b207374756666732f6f6c642d696e6465782e68746d6c|]
+Nov  1 11:48:53 10.71.60.0 u100996274 open "/logs/access.log.36.gz" flags READ mode 0666
+Nov  1 11:48:53 10.71.60.0 u100996274 open "/logs/access.log.44.7" flags READ mode 0666
+Nov  1 11:48:53 10.71.60.0 u100996274 close "/logs/access.log.36.gz" bytes read 1850 written 0
+Nov  1 11:48:53 10.71.60.0 u100996274 [10.71.60.0|get|0|1850|0|0|0|2f6c6f67732f6163636573732e6c6f672e33362e677a|]
+Nov  1 11:48:53 10.71.60.0 u100996274 close "/logs/access.log.44.7" bytes read 1796 written 0
+Nov  1 11:48:53 10.71.60.0 u100996274 [10.71.60.0|get|0|1796|0|0|0|2f6c6f67732f6163636573732e6c6f672e34342e37|]
+Nov  1 11:48:53 10.71.60.0 u100996274 open "/logs/access.log.44.5.gz" flags READ mode 0666
+Nov  1 11:48:53 10.71.60.0 u100996274 open "/logs/access.log.40.gz" flags READ mode 0666
+Nov  1 11:48:53 10.71.60.0 u100996274 close "/logs/access.log.44.5.gz" bytes read 585 written 0
+Nov  1 11:48:53 10.71.60.0 u100996274 [10.71.60.0|get|0|585|0|0|0|2f6c6f67732f6163636573732e6c6f672e34342e352e677a|]
+Nov  1 11:48:53 10.71.60.0 u100996274 close "/logs/access.log.40.gz" bytes read 1396 written 0
+Nov  1 11:48:53 10.71.60.0 u100996274 [10.71.60.0|get|0|1396|0|0|0|2f6c6f67732f6163636573732e6c6f672e34302e677a|]
+Nov  1 11:48:53 10.71.60.0 u100996274 open "/logs/access.log.44.3.gz" flags READ mode 0666
+Nov  1 11:48:53 10.71.60.0 u100996274 open "/logs/access.log.43.6.gz" flags READ mode 0666
+Nov  1 11:48:53 10.71.60.0 u100996274 close "/logs/access.log.44.3.gz" bytes read 437 written 0
+Nov  1 11:48:53 10.71.60.0 u100996274 [10.71.60.0|get|0|437|0|0|0|2f6c6f67732f6163636573732e6c6f672e34342e332e677a|]
+Nov  1 11:48:54 10.71.60.0 u100996274 close "/logs/access.log.43.6.gz" bytes read 442 written 0
+Nov  1 11:48:54 10.71.60.0 u100996274 [10.71.60.0|get|1|442|0|0|0|2f6c6f67732f6163636573732e6c6f672e34332e362e677a|]
+Nov  1 11:48:54 10.71.60.0 u100996274 open "/logs/access.log.43.4.gz" flags READ mode 0666
+Nov  1 11:48:54 10.71.60.0 u100996274 open "/logs/access.log.43.2.gz" flags READ mode 0666
+Nov  1 11:48:54 10.71.60.0 u100996274 close "/logs/access.log.43.4.gz" bytes read 601 written 0
+Nov  1 11:48:54 10.71.60.0 u100996274 [10.71.60.0|get|0|601|0|0|0|2f6c6f67732f6163636573732e6c6f672e34332e342e677a|]
+Nov  1 11:48:54 10.71.60.0 u100996274 close "/logs/access.log.43.2.gz" bytes read 567 written 0
+Nov  1 11:48:54 10.71.60.0 u100996274 [10.71.60.0|get|0|567|0|0|0|2f6c6f67732f6163636573732e6c6f672e34332e322e677a|]
+Nov  1 11:48:54 10.71.60.0 u100996274 open "/logs/access.log.43.1.gz" flags READ mode 0666
+Nov  1 11:48:54 10.71.60.0 u100996274 open "/logs/access.log.39.gz" flags READ mode 0666
+Nov  1 11:48:54 10.71.60.0 u100996274 close "/logs/access.log.43.1.gz" bytes read 817 written 0
+Nov  1 11:48:54 10.71.60.0 u100996274 [10.71.60.0|get|0|817|0|0|0|2f6c6f67732f6163636573732e6c6f672e34332e312e677a|]
+Nov  1 11:48:54 10.71.60.0 u100996274 close "/logs/access.log.39.gz" bytes read 1983 written 0
+Nov  1 11:48:54 10.71.60.0 u100996274 [10.71.60.0|get|0|1983|0|0|0|2f6c6f67732f6163636573732e6c6f672e33392e677a|]
+Nov  1 11:48:54 10.71.60.0 u100996274 open "/logs/sftp.log" flags READ mode 0666
+Nov  1 11:48:54 10.71.60.0 u100996274 open "/logs/access.log.41.gz" flags READ mode 0666

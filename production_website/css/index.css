@@ -1,0 +1,158 @@
+.brief_introduction{
+    width: 80%;
+    margin: 30px auto;
+    padding: 30px;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: turquoise;
+}
+
+.brief_introduction h1{
+    font-size: 32px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 800;
+    color: rgb(75, 0, 160);
+}
+
+.brief_introduction p{
+    margin-top: 20px;
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.shop_link {
+    box-sizing:border-box
+}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  max-height: 600px;
+  overflow: hidden;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+.openingSlide {
+  display: block;
+}
+
+@keyframes fade-slideshow {
+  from {filter: brightness(75%)}
+  to {filter: brightness(50%);}
+}
+
+@keyframes unfade-slideshow {
+  from {filter: brightness(50%)}
+  to {filter: brightness(75%);}
+}
+
+.mySlides img {
+  filter: brightness(75%);
+}
+
+.mySlides img:hover {
+  animation-name: fade-slideshow;
+  animation-duration: 1.5s;
+}
+
+.mySlides img:not(:hover) {
+  animation-name: unfade-slideshow;
+  animation-duration: 1.5s;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.captiontext {
+  color: #ffffff;
+  font-size: 50px;
+  position: absolute;
+  bottom: 50%;
+  width: 100%;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.captiontext p {
+  margin: auto;
+  width: 75%;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot-container {
+  position: absolute;
+  left: 50%;
+  bottom: 8px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}

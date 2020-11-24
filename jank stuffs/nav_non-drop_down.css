@@ -1,0 +1,24 @@
+.navigation{
+    float: right;
+    height: 100%;
+    text-transform: uppercase;
+}
+
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+
+.navigation a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    font-family: "Roboto";
+    font-size: 18px;
+}
+
+.navigation a:hover{
+    background-color: rgb(84, 169, 180);
+}
