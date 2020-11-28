@@ -1,6 +1,5 @@
 const nav = document.getElementsByClassName("nav_bar_container");
 const url = window.location.href;
-const length_url = url.length;
 const url_to_className = {"": "home_link",
                         "/about-us":"about_link",
                         "/products":"product_link",
@@ -16,11 +15,9 @@ function drop_down_menu(){
 }
 
 function current_page(){
-    var trim_url = url.slice(15, length_url);
+    var trim_url = url.slice(15);
     document.getElementsByClassName(url_to_className[trim_url]).setAttribute("id", "current_page")
 }
-
-nav.addEventListener("load", current_page());
 
 /*This function loads an html file into the current file, 
 specified at a given class name. If a filename is not given, the 
