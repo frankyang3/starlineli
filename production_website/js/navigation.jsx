@@ -1,6 +1,6 @@
 const nav = document.getElementsByClassName("nav_bar_container");
 const url = window.location.href;
-const url_to_className = {"": "home_link",
+const url_to_className = {"/": "home_link",
                         "/about-us":"about_link",
                         "/products":"product_link",
                         "/contact-us":"contact_link"}
@@ -15,12 +15,13 @@ function drop_down_menu(){
 }
 
 function current_page(){
-    var trim_url = url.slice(15);
+    var trim_url = url.slice(22);
     var elem_list = document.getElementsByClassName(url_to_className[trim_url]);
-    if (elem_list != 1){
-        console.error("Cannot find current page")
+    if (elem_list.length != 1){
+        console.log(elem_list);
+        console.error("Cannot find current page");
     }else{
-        elem_list[0].setAttribute("id", "current_page")
+        elem_list[0].setAttribute("id", "current_page");
     }
 }
 
