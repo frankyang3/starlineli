@@ -1,9 +1,13 @@
+/*const used for the function drop_down_menu*/
 const nav = document.getElementsByClassName("nav_bar_container");
+
+/*const used for the function current_page*/
 const url = window.location.href;
 const url_to_className = {"/": "home_link",
                         "/about-us":"about_link",
                         "/products":"product_link",
                         "/contact-us":"contact_link"}
+
 /*This function changes the property of the nav_bar_container 
 between 'none' and 'block'*/
 function drop_down_menu(){
@@ -14,6 +18,8 @@ function drop_down_menu(){
     }
 }
 
+/*This function looks at the URL and attaches the id "current_page"
+to the associated link in the Nav bar*/
 function current_page(){
     var trim_url = url.slice(22);
     var elem_list = document.getElementsByClassName(url_to_className[trim_url]);
