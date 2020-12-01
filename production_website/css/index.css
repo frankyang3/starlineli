@@ -1,25 +1,3 @@
-.info_box{
-    width: 80%;
-    margin: 30px auto;
-    padding: 30px;
-    overflow: hidden;
-    border-radius: 10px;
-    background-color: turquoise;
-}
-
-.info_box h1{
-    font-size: 32px;
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 800;
-    color: rgb(75, 0, 160);
-}
-
-.info_box p{
-    margin-top: 20px;
-    font-size: 14px;
-    font-family: 'Ubuntu', sans-serif;
-}
-
 .shop_link {
     box-sizing:border-box
 }

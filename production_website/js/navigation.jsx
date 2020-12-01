@@ -1,10 +1,13 @@
+/*const used for the function drop_down_menu*/
 const nav = document.getElementsByClassName("nav_bar_container");
+
+/*const used for the function current_page*/
 const url = window.location.href;
-const length_url = url.length;
-const url_to_className = {"": "home_link",
+const url_to_className = {"/": "home_link",
                         "/about-us":"about_link",
                         "/products":"product_link",
                         "/contact-us":"contact_link"}
+
 /*This function changes the property of the nav_bar_container 
 between 'none' and 'block'*/
 function drop_down_menu(){
@@ -15,12 +18,18 @@ function drop_down_menu(){
     }
 }
 
+/*This function looks at the URL and attaches the id "current_page"
+to the associated link in the Nav bar*/
 function current_page(){
-    const trim_url = url.slice(15, length_url);
-    document.getElementsByClassName(url_to_className[trim_url]).setAttribute("id", "current_page")
+    var trim_url = url.slice(22);
+    var elem_list = document.getElementsByClassName(url_to_className[trim_url]);
+    if (elem_list.length != 1){
+        console.log(elem_list);
+        console.error("Cannot find current page");
+    }else{
+        elem_list[0].setAttribute("id", "current_page");
+    }
 }
-
-nav.addEventListener("load", current_page());
 
 /*This function loads an html file into the current file, 
 specified at a given class name. If a filename is not given, the 
