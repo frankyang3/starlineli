@@ -16,7 +16,7 @@ function drop_down_menu(){
 }
 
 function current_page(){
-    var trim_url = url.slice(15, length_url);
+    const trim_url = url.slice(15, length_url);
     document.getElementsByClassName(url_to_className[trim_url]).setAttribute("id", "current_page")
 }
 
