@@ -1,0 +1,31 @@
+.side_selection{
+    display: inline-block;
+    width: 20%;
+    margin: auto;
+}
+
+#showcase_container{
+    background-color: rgba(86, 117, 216, 0.836);
+    display: inline-block;
+    width: 70%;
+    margin: auto;
+}
+
+#showcase_container h1{
+    font-family: "Roboto", sans-serif;
+    color: salmon;
+    text-align: center;
+    margin: auto;
+}
+
+#product_showcase{
+    display: grid;
+    border: rgb(20, 40, 103);
+    border-radius: 5 px;
+}
+
+.product_box a{
+    text-decoration: none;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}

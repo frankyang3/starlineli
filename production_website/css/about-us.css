@@ -22,3 +22,13 @@
 }
 
 /*TODO add value_box stuff (make sure they're inline)*/
+.value_box{
+    display: inline-block;
+}
+
+.value_box p{
+    margin-top: 20px;
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(4, 87, 77);
+}

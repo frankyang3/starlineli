@@ -88,6 +88,10 @@
     background-color: rgb(115, 200, 211);
 }
 
+#current-page:hover{
+    background-color: rgb(84, 169, 180);
+}
+/*BUG The hover background does not work with the element with current_page*/
 .navigation a:hover{
     background-color: rgb(84, 169, 180);
 }
