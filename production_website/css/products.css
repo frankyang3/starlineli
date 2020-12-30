@@ -5,34 +5,53 @@
 }
 
 #showcase_container{
-    background-color: rgba(86, 117, 216, 0.836);
     display: inline-block;
     width: 70%;
     margin: auto;
 }
 
-#showcase_container h1{
+#title_banner h1{
     font-family: "Roboto", sans-serif;
-    color: salmon;
+    color: seashell;
     text-align: center;
     margin: auto;
+}
+
+#title_banner {
+    padding: 30px 50px;
+    background-color: rgba(86, 117, 216, 0.836);
+    border-radius: 10px;
 }
 
 #product_showcase{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: 200px;
-    border: rgb(20, 40, 103);
+    grid-auto-rows: 300px;
     border-radius: 5 px;
 }
 
+/*Product Box css Below*/
+/*TODO create media query at 700px wide to reduce products per line to 2*/
+
 .product_box{
     background-color: seashell;
-    border: navy;
     padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.product_box h2 {
+    text-align: center;
+}
+
+.product_box img {
+    margin: auto;
+    height: 100px;
+    display: block;
 }
 
 .product_box a{
+    display: block;
     text-decoration: none;
     text-align: center;
     font-family: "Roboto", sans-serif;
