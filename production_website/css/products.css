@@ -1,4 +1,4 @@
-.side_selection{
+#side_selection{
     display: inline-block;
     width: 20%;
     margin: auto;
@@ -7,7 +7,7 @@
 #showcase_container{
     display: inline-block;
     width: 70%;
-    margin: auto;
+    margin: 20px auto;
 }
 
 #title_banner h1{
