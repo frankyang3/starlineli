@@ -1,8 +1,11 @@
 /*Note that all info_box css comes from style.css*/
-
 .value_box{
+    margin: auto;
+}
+
+.value_box div{
     display: inline-block;
-    width: 30%;
+    width: 33%;
     vertical-align: top;
 }
 
@@ -10,4 +13,5 @@
     margin-top: 10px;
     font-size: 14px;
     font-family: 'Ubuntu', sans-serif;
+    text-align: center;
 }
