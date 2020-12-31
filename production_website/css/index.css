@@ -19,29 +19,14 @@
   display: block;
 }
 
-@keyframes fade-slideshow {
-  from {filter: brightness(75%)}
-  to {filter: brightness(50%);}
-}
-
-@keyframes unfade-slideshow {
-  from {filter: brightness(50%)}
-  to {filter: brightness(75%);}
-}
-
 .mySlides img {
   filter: brightness(75%);
+  transition-property: filter;
+  transition-duration: 1.5s;
 }
 
 .mySlides img:hover {
-  animation-name: fade-slideshow;
-  animation-duration: 1.5s;
   filter: brightness(50%);
-}
-
-.mySlides img:not(:hover) {
-  animation-name: unfade-slideshow;
-  animation-duration: 1.5s;
 }
 
 /* Next & previous buttons */
