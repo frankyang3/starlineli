@@ -9,6 +9,7 @@
   overflow: hidden;
   position: relative;
   margin: auto;
+  background-color: #777777;
 }
 
 /* Hide the images by default */
