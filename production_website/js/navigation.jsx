@@ -8,29 +8,6 @@ const url_to_className = {"/": "home_link",
                         "/products":"product_link",
                         "/contact-us":"contact_link"}
 
-/*This function changes the property of the nav_bar_container 
-between 'none' and 'block'*/
-function drop_down_menu(){
-    if (nav[0].style.display === "block"){
-        nav[0].style.display = "none";
-    } else {
-        nav[0].style.display = "block";
-    }
-}
-
-/*This function looks at the URL and attaches the id "current_page"
-to the associated link in the Nav bar*/
-function current_page(){
-    var trim_url = url.slice(22);
-    var elem_list = document.getElementsByClassName(url_to_className[trim_url]);
-    if (elem_list.length != 1){
-        console.log(elem_list);
-        console.error("Cannot find current page");
-    }else{
-        elem_list[0].setAttribute("id", "current_page");
-    }
-}
-
 /*This function loads an html file into the current file, 
 specified at a given class name. If a filename is not given, the 
 function will try to find the file with the name classname.html 
@@ -45,3 +22,14 @@ function includeHTML(classname, filename = classname) {
 
 //TODO create a function that detects the screen size and changes the nav bar accordingly
 
+(function () {
+    var menuDisplay = false;
+    toggleMenu = function() {
+        var menu = document.getElementById("nav_bar_container");
+        if (menu.style.display == "none") {
+            menu.style.display = "flex";
+        } else {
+            menu.style.display = "none";
+        }
+    }
+})();
