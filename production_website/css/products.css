@@ -1,9 +1,33 @@
+/*
+Filter Section Below
+*/
 #side_selection{
     display: inline-block;
     width: 20%;
-    margin: auto;
+    margin: 20px auto;
+    padding: 10px;
+    vertical-align: top;
 }
 
+#side_selection_title{
+    background-color: rgba(86, 117, 216, 0.836);
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+#side_selection_title h3{
+    text-align: center;
+    color: seashell;
+}
+
+#filter_container{
+    background-color: seashell;
+    border-radius: 5px;
+}
+
+/*
+Products Section Below
+*/
 #showcase_container{
     display: inline-block;
     width: 70%;
@@ -32,7 +56,6 @@
 
 /*Product Box css Below*/
 /*TODO create media query at 700px wide to reduce products per line to 2*/
-
 .product_box{
     background-color: seashell;
     padding: 20px;

@@ -1,34 +1,13 @@
-.introduction{
-    padding: 30px;
-    width: 80%;
-    margin: 30px auto;
-    overflow: hidden;
-    border-radius: 10px;
-    background-color: rgb(89, 243, 228);
-}
+/*Note that all info_box css comes from style.css*/
 
-.introduction h1{
-    text-align: center;
-    font-size: 32px;
-    font-weight: 800;
-    font-family: 'Ubuntu', sans-serif;
-    color: rgb(75, 0, 160);
-}
-
-.introduction p{
-    margin-top: 20px;
-    text-align: center;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-/*TODO add value_box stuff (make sure they're inline)*/
 .value_box{
     display: inline-block;
+    width: 30%;
+    vertical-align: top;
 }
 
 .value_box p{
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 14px;
     font-family: 'Ubuntu', sans-serif;
-    color: rgb(4, 87, 77);
 }

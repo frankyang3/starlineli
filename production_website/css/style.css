@@ -20,14 +20,17 @@
   font-size: 32px;
   font-family: 'Ubuntu', sans-serif;
   font-weight: 800;
+  text-align: center;
   color: rgb(75, 0, 160);
 }
 
 .info_box h2{
+  margin-top: 20px;
   font-size: 24px;
   font-family: 'Ubuntu', sans-serif;
   font-weight: 650;
-  color: rgb(132, 150, 112);
+  text-align: center;
+  color: rgb(140, 141, 135);
 }
 
 .info_box p{
