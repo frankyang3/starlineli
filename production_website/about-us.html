@@ -12,8 +12,29 @@
     <script src="js/navigation.jsx"></script>
   </head>
   <body>
-    <script>includeHTML("header")</script>
-    <header class="header"></header>
+    <header class="header">
+      <div class="inner_header">
+        <div class="logo_container">
+            <div class="logo_pic_container">
+              <a href="/"><img class="header_logo" src="media/Logo_V1.00_transparent_purple.png"></a>
+            </div>
+            <h1><a href="/">Star<span>line</span> Li</a></h1>
+        </div>
+        <div class="menu_logo_container">
+            <div class="menu_button_container">
+                <img class="header_menu_logo" src="media/Logo_V1.00_transparent_purple.png" onclick="toggleMenu()">
+            </div>
+        </div>
+        <div class="nav_bar_container" id="nav_bar_container">
+            <ul class="navigation">
+              <a class="home_link" href="/"><li>Ho<strong>me</strong></li></a>
+              <a class="about_link" href="./about-us"><li>Ab<strong>out</strong> Us</li></a>
+              <a class="product_link" href="./products"><li>Pro<strong>ducts</strong></li></a>
+              <a class="contact_link" href="./contact-us"><li>Con<strong>tact</strong> Us</li></a>
+            </ul>
+        </div>
+      </div>
+    </header>
     <section class="info_box">
       <h1>
         About Us
@@ -22,15 +43,15 @@
         Starline is a family run seafood importer specializing in both dried and frozen Seafood. Starline Li Inc. has been seafood importer since 2012. We supply a variety of high-quality importer seafood in Canada and maintain quality control at every stage. We strictly follow the regulations of Canada Food Inspection Agency (CFIA), including the Hazard Analysis Critical Control Point (HACCP) system, and achieve the standards of CFIA and CE.
       </p>
       <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam nostrum tempore eligendi. Totam quae debitis blanditiis accusamus dolor deserunt quidem molestiae est. Recusandae necessitatibus quam fuga quasi provident impedit odio repudiandae tempora sed, expedita totam error nemo autem cumque eos tenetur id veritatis delectus incidunt, alias quibusdam et quo voluptates!
+        Founded on the fundemental belief that quality seafood should be assesible to everyone. Starline Li ever since has been striving to bring affordable and quality seafood into the market. By cutting out the middle man and grouping up orders from costumers into one big order, we are able to bring costs down to a minimum. To learn more about how we perform our orders check out our <a class="in_page_link" href="./products">product page<a>.
       </p>
     </section>
     <section class="info_box">
       <h1>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, beatae?
+        Our Journey
       </h1>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, voluptas labore? Accusantium maiores quia culpa sint architecto cumque ullam sit hic, laudantium reprehenderit, molestias a autem nam excepturi vitae aliquid impedit ratione aperiam tenetur illum eaque soluta repellat ut dicta. Ut, provident! Rem provident laudantium et aliquid velit tempore, ipsa sint. Consequuntur sit, consectetur ratione deleniti doloremque ipsa libero aspernatur voluptate sapiente optio recusandae exercitationem soluta. Quod minus necessitatibus nesciunt corrupti ratione illo, ea ab. Suscipit nostrum provident fuga ea tempore eius animi dolores voluptatum labore rerum unde, nulla iusto? Praesentium excepturi atque dolores beatae nobis quaerat quia dolorum neque?
+        Starline was Founded by
       </p>
     </section>
     <section class="info_box">
@@ -38,23 +59,23 @@
       <div class="value_box">
         <div>
           <!--idea is to have multiple boxes with different values-->
-          <h2>One value</h2>
+          <h2>Quality</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio vitae officiis exercitationem perferendis, assumenda culpa vero? Architecto dicta maiores, assumenda quam, et excepturi facere aut quasi laboriosam mollitia facilis tempore.
+            We eat what we sell. We believe that our costumers deserves only what we are personally happy to consume. All products that we sell have been personally tested and approved by us.
           </p>
         </div>
 
         <div>
-          <h2>Another value</h2>
+          <h2>Safety</h2>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio voluptates laborum sapiente vel voluptate aliquam, aut tempora aspernatur illum repudiandae.
+            We strictly follow the regulations of Canada Food Inspection Agency (CFIA), including the Hazard Analysis Critical Control Point (HACCP) system, and achieve the standards of CFIA and CE. We always try our best to ensure the product we provide is safe to consume.
           </p>
         </div>
 
         <div>
-          <h2>Final value</h2>
+          <h2>Affordability</h2>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur quae voluptas repellat quod suscipit ad eligendi ea, quasi recusandae, dolore nostrum sequi repellendus! Eaque, odit.
+            After ensuring the quality and safety of our product, cost is our next concern. We make sure you get the most out of your hard-earned money by cutting out the middle-man and taking orders in blocks in order to sell at low prices.
           </p>
         </div>
       </div>
