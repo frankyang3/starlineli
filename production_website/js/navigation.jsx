@@ -20,8 +20,6 @@ function includeHTML(classname, filename = classname) {
 //BUG what happens when there are multiple tags with the same classname
 
 
-//TODO create a function that detects the screen size and changes the nav bar accordingly
-
 (function () {
     var menuDisplay = false;
     toggleMenu = function() {
@@ -33,3 +31,12 @@ function includeHTML(classname, filename = classname) {
         }
     }
 })();
+
+$(window).on("scroll", function() {
+    if($(window).scrollTop() > 50) {
+        $(".header").addClass("active");
+    } else {
+        //remove the background property so it comes transparent again (defined in your css)
+       $(".header").removeClass("active");
+    }
+});

@@ -7,6 +7,13 @@
     z-index: 200;
 }
 
+.header.active {
+    background: rgb(170, 170, 170);
+    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+}
+
 .inner_header{
     width: 90%;
     height: 100%;
