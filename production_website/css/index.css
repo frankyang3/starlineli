@@ -142,13 +142,3 @@
   bottom: 0;
   z-index: 215;
 }
-
-@media screen and (min-width: 900px) {
-  #welcome_music {
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    margin-left: 0;
-    z-index: 215;
-  }
-}
