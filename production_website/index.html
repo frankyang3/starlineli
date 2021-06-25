@@ -16,6 +16,11 @@
   <body>
     <script>includeHTML("header")</script>
     <header class="header"></header>
+    <audio id="welcome_music" src="media/sounds/Noisestorm - Crab Rave.wav" controls loop> Error: your web browser does not support this audio player.</audio>
+    <script>
+      var audio = document.getElementById("welcome_music");
+      audio.volume = 0.5;
+    </script>
     <section class="welcome">
       <div class="shop_link">
         <!-- Slideshow container -->
