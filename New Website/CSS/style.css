@@ -1,0 +1,22 @@
+/*CSS for the header*/
+.inner_header{
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    display: inline-flexbox;
+}
+
+.logo_container{
+    width: 80px;
+    height: 80px;
+}
+
+/*CSS for mobile page*/
+/*
+TODO 
+1. move nav buttons into the nav menu button
+2. remove company_name
+*/
+
+
+/*CSS for general items*/
